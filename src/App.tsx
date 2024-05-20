@@ -8,7 +8,7 @@ export function App() {
 
   return (
     <HelmetProvider>
-      <Helmet titleTemplate="%s | pizza.shop" />
+      <Helmet titleTemplate="%s | PizzaNest.shop" />
       <RouterProvider router={router} />
     </HelmetProvider>
 

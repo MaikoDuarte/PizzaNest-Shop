@@ -7,7 +7,7 @@ module.exports = {
     './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
   ],
-  prefix: "tailwind.config.js",
+
   theme: {
     container: {
       center: true,
