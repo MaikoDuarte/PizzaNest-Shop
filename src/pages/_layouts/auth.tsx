@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 import { Pizza } from 'lucide-react'
 
+
 export function AuthLayout() {
   return(
     <div className="grid min-h-screen grid-cols-2">
@@ -19,7 +20,7 @@ export function AuthLayout() {
 
     
 
-    <div className="flex flex-col items-center justify-center">
+    <div className="relative flex flex-col items-center justify-center">
       <Outlet />
     </div>
     </div>
