@@ -16,17 +16,7 @@ export function OrderTableRow() {
       </Button>
       </DialogTrigger>
 
-      <div className="space-y-6">
-        <Table>
-          <TableBody>
-            <TableRow>
-              <TableCell>Status</TableCell>
-              <TableCell></TableCell>
 
-            </TableRow>
-          </TableBody>
-        </Table>
-      </div>
       
       <OrderDetails />
 
@@ -35,9 +25,11 @@ export function OrderTableRow() {
     </TableCell>
     <TableCell className="font-mono text-xs font-medium">32423dsdf3221</TableCell>
     <TableCell className="text-muted-foreground">há 15 minutos</TableCell>
-    <TableCell className="flex items-center gap-2">
+    <TableCell>
+    <div className="flex items-center gap-2">
       <span className="h-2 w-2 rounded-full bg-slate-400" />
       <span className="font-medium text-muted-foreground">Pendente</span>
+    </div>
     </TableCell>
     <TableCell className="font-medium">Maiko Duarte</TableCell>
     <TableCell className="font-medium">R$149,90</TableCell>
